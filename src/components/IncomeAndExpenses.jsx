@@ -27,7 +27,7 @@ export const IncomeAndExpenses = () => {
   const result = (income, expense) => {
     let percentage = ((expense * 100) / income).toFixed(2);
 
-    if (!isFinite(percentage) || percentage > 100) {
+    if (!isFinite(percentage)) {
       percentage = 0;
     }
     return percentage;

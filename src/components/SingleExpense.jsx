@@ -25,7 +25,7 @@ export const SingleExpense = () => {
             <span className="percentage">
               {((transaction.amount * 100) / totalIncome).toFixed(2) * 1 ===
                 Infinity ||
-              ((transaction.amount * 100) / totalIncome).toFixed(2) * 1 > 100
+              ((transaction.amount * 100) / totalIncome).toFixed(2) * 1 < 0
                 ? 0
                 : ((transaction.amount * 100) / totalIncome).toFixed(2)}
               %
