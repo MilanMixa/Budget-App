@@ -5,6 +5,6 @@
 Runs the app in the development mode.\
 Open http://localhost:3000 to view it in your browser.
 
-### `link for a live server`
+### `link for the website`
 
 https://my-budget-webapp.netlify.app/
