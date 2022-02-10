@@ -11,6 +11,14 @@ export const InputFields = () => {
   const [addDescription, setAddDescription] = useState("");
   const [amount, setAmount] = useState(0);
 
+  // state for select
+  const [selected, setSelected] = useState("-");
+
+  //handler for select
+  const handleChange = (e) => {
+    setSelected(e.target.value);
+  };
+
   // handle for submit
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -37,14 +45,6 @@ export const InputFields = () => {
       setAddDescription("");
       setAmount(0);
     }
-  };
-
-  // state for select
-  const [selected, setSelected] = useState("-");
-
-  //handler for select
-  const handleChange = (e) => {
-    setSelected(e.target.value);
   };
 
   return (

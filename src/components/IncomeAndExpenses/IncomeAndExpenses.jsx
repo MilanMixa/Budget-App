@@ -32,7 +32,7 @@ export const IncomeAndExpenses = () => {
     }
     return percentage;
   };
-  result(totalIncome, totalExpense);
+  const percent = result(totalIncome, totalExpense);
 
   // calculating the difference between income and expenses
   const finalSum = (totalIncome - totalExpense).toFixed(2);
@@ -51,7 +51,7 @@ export const IncomeAndExpenses = () => {
         <h4>INCOME</h4>
         <p>
           +{totalIncome}
-          <span className="hidden">50.00%</span>
+          <span className="hidden">{percent + "%"}</span>
         </p>
       </div>
 
@@ -59,9 +59,7 @@ export const IncomeAndExpenses = () => {
         <h4>EXPENSES</h4>
         <p>
           -{totalExpense}
-          <span className="percentage">
-            {result(totalIncome, totalExpense) + "%"}
-          </span>
+          <span className="percentage">{percent + "%"}</span>
         </p>
       </div>
     </div>
