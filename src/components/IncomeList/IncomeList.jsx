@@ -1,4 +1,4 @@
-import { SingleIncome } from "./SingleIncome";
+import { SingleIncome } from "../SingleIncome/SingleIncome";
 
 //style
 import "./IncomeList.css";

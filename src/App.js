@@ -2,11 +2,11 @@ import "./App.css";
 
 //components
 
-import Header from "./components/Header";
-import { ExpensesList } from "./components/ExpensesList";
-import { IncomeAndExpenses } from "./components/IncomeAndExpenses";
-import { IncomeList } from "./components/IncomeList";
-import { InputFields } from "./components/InputFields";
+import Header from "./components/Header/Header";
+import { ExpensesList } from "./components/ExpenseList/ExpensesList";
+import { IncomeAndExpenses } from "./components/IncomeAndExpenses/IncomeAndExpenses";
+import { IncomeList } from "./components/IncomeList/IncomeList";
+import { InputFields } from "./components/InputFields/InputFields";
 
 function App() {
   return (

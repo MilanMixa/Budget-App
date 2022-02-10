@@ -1,4 +1,4 @@
-import { SingleExpense } from "./SingleExpense";
+import { SingleExpense } from "../SingleExpense/SingleExpense";
 
 //styles
 import "./ExpenseList.css";

@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { GlobalContext } from "../context/GlobalState";
+import { GlobalContext } from "../../context/GlobalState";
 
 //styles
 import "./InputFields.css";
